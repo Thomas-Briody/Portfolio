@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    
+  </head>
+  <body>
+    <nav class="navbar is-fixed-top" style="background: transparent;margin-bottom: -52" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item"><Link to="/about">About Me</Link></div>
+        <div class="navbar-item"><a href="#projects">Projects</a></div>
+        <div class="navbar-item"><a href="#contact">Contact</a></div>
+      </div>
+    </nav>
+  <section class="hero">
+    <div class="hero-title">
+      <h1>Thomas Briody</h1>
+      <h3>Junior Developer</h3>
+    </div>
+</section>
+
+<section class="about" style="margin: 30px">
+  <h1 class="title">About Me</h1>
+  <div class="columns">
+    <div class="column is-one-quarter">
+      <img style="width: 350px; border-radius: 50%;" src="https://i.imgur.com/hTvy5M9.jpg"/>
+    </div>
+    <div class="column is-three-quarters">
+      <h2>Hi, I'm Tom!</h2>
+          <p>
+            I am a Junior Developer who has recently completed a Software
+            Engineering Immersive course via General Assembly. Having
+            previously worked in a variety of positions within a number of
+            industries, including the financial and luxury car markets, I
+            enrolled in a Software Engineering course to follow my passion
+            for technology and desire to pursue a career as a developer. 
+            </br>
+            A hard-working mentality combined with an eagerness to constantly
+            challenge myself have allowed me to adapt to the range of roles
+            I have previously held, and I believe this will also help me
+            progress moving forward. I am currently seeking a Junior
+            Developer position within a company in which I can learn and
+            develop my existing skillset.
+          </p>
+          <h1>Skills:</h1>
+          <p>HTML, CSS, JavaScript, NPM, React, Node, Mongoose,
+            Express, Python, PostgreSQL, Flask, MongoDb, Git, Heroku, Sass
+          </p>
+    </div>
+  </div>
+</section>
+
+<section class="projects">
+  <h1 class="title">Projects</h1>
+
+  <div class="carousel-wrapper">
+    <span id="item-1"></span>
+    <span id="item-2"></span>
+    <span id="item-3"></span>
+    <div class="carousel-item item-1" style="display: flex">
+      <div class="image-container" style="width: 610px">
+        <img style="width: 280px; height: 260px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/RKhuUeP.png"
+        />
+        <img
+        style="width: 280px; height: 260px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/9CcWvVY.png?1"
+        />
+        <img
+        style="width: 280px; height: 260px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/Tr0YANR.png?1"
+        />
+        <img
+        style="width: 280px; height: 260px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/wmsIlsR.png"
+        />
+      </div>
+      <div class="text-container" style="width: 400px">
+      <h2 class="title is-4" style="text-align: center">Project 1 - Space Invaders</h2>
+      <p>  
+        <strong>Description: </strong>Using ‘Vanilla’ JavaScript, I created a grid-based game modelled on Space Invaders. This project allowed me to consolidate my recently gained experience of JavaScript, while also experimenting with new elements within CSS.
+      </br>
+      </br>
+       <strong>Timescale: </strong>1 Week
+      </br>
+      </br>
+        <strong>Technology: </strong>HTML, CSS, Vanilla Javascript
+      </br>
+      </br>
+        <strong>Link: </strong>https://thomas-briody.github.io/Project-1,
+      </p>
+      <a class="arrow arrow-prev" href="#item-3"></a>
+      <a class="arrow arrow-next" href="#item-2"></a>
+    </div>
+    </div>
+    
+    <div class="carousel-item item-2" style="display: flex">
+      <div class="image-container" style="width: 610px">
+        <img style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/dw3qMRr.png"
+        />
+        <img
+        style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/UEzWqUh.png"
+        />
+        <img
+        style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/VdUjWsS.png"
+        />
+        <img
+        style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/BHI2LqZ.png"
+        />
+      </div>
+      <div class="text-container" style="width: 400px; margin: 20px">
+        <h2 class="title is-4" style="text-align: center">Project 2 - ETC News</h2>
+        <p>  
+          <strong>Description: </strong>In my first group project, we created a news website using a public news API. I worked on a mixture of react elements along with assisting with the design of the overall website, and enjoyed coding with others and learning from them.
+        </br>
+        </br>
+         <strong>Timescale: </strong>3 Days
+        </br>
+        </br>
+          <strong>Technology: </strong>HTML, CSS, Vanilla Javascript
+        </br>
+        </br>
+          <strong>Link: </strong> N/A
+        </p>
+        <a class="arrow arrow-prev" href="#item-1"></a>
+        <a class="arrow arrow-next" href="#item-3"></a>
+      </div>
+    </div>
+    
+    <div class="carousel-item item-3" style="display: flex">
+      <div class="image-container" style="width: 610px">
+        <img style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/LqjP7ZO.png"
+        />
+        <img
+        style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/C89VSDr.png"
+        />
+        <img
+        style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/6VWfsYA.png"
+        />
+        <img
+        style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="https://i.imgur.com/sdFrvuF.png"
+        />
+      </div>
+      <div class="text-container" style="width: 400px; margin: 20px">
+        <h2 class="title is-4" style="text-align: center">Project 3 - Stepladder</h2>
+        <p>  
+          <strong>Description: </strong>For this project my team created a job recruitment website, working together on both the front and backend to produce the final app. During this project I became comfortable using Bulma, a CSS framework, to give the website a clean and simple style.
+        </br>
+        </br>
+         <strong>Timescale: </strong>1 Week
+        </br>
+        </br>
+          <strong>Technology: </strong>HTML, CSS, Vanilla Javascript
+        </br>
+        </br>
+          <strong>Link: </strong> N/A
+        </p>
+        <a class="arrow arrow-prev" href="#item-2"></a>
+        <a class="arrow arrow-next" href="#item-1"></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- <h1 class="title">Projects</h1>
+    <div class="columns">
+      <div
+        class="column is-half"
+        style="display: flex; flex-wrap: wrap; padding: 50px"
+      >
+        <img style="width: 270px; height: 250px; padding: 3px"
+          src="https://i.imgur.com/RKhuUeP.png"
+        />
+        <img
+          className="image"
+          style="width: 270px; height: 250px; padding: 3px"
+          src="https://i.imgur.com/9CcWvVY.png?1"
+        />
+        <img
+          className="image"
+          style="width: 270px; height: 250px; padding: 3px"
+          src="https://i.imgur.com/Tr0YANR.png?1"
+        />
+        <img
+          className="image"
+          style="width: 270px; height: 250px; padding: 3px"
+          src="https://i.imgur.com/wmsIlsR.png"
+        />
+      </div>
+
+      <div className="column is-half">
+        <h1 class="title">Project 1 - Space Invaders</h1>
+        <p>
+          <strong>Name: </strong>Space Invaders
+          </br>
+          <strong>Timescale: </strong>1 Week
+          </br>
+          <strong>Technology: </strong>HTML, CSS, Vanilla Javascript
+          </br>
+          <strong>Description: </strong>Using ‘Vanilla’ JavaScript, I created a grid-based game modelled on Space Invaders. This project allowed me to consolidate my recently gained experience of JavaScript, while also experimenting with new elements within CSS.
+          </br>
+          <strong>Link: </strong>https://thomas-briody.github.io/Project-1/</p>
+      </div>
+    </div> -->
+
+</section>
+<div class="footer">
+  This is a footer
+</div>
+  </body>
+</html>
