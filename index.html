@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Tom Briody Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <link rel="stylesheet" href="./style.css">
 
@@ -26,19 +27,18 @@
     </nav>
   <section class="hero">
     <div class="hero-title">
-      <h1>Thomas Briody</h1>
-      <h3>Junior Developer</h3>
+      <h1 class="title is-1 animate__animated animate__fadeInDown">Thomas Briody</h1>
+      <h2 class='title is-3 animate__animated animate__fadeInDown'>software Engineer</h2>
     </div>
 </section>
 
 <section class="about" style="margin: 30px">
-  <h1 class="title">About Me</h1>
+  <h1 class="title is-3" style="text-align: center">About Me</h1>
   <div class="columns">
-    <div class="column is-one-quarter">
-      <img style="width: 350px; border-radius: 50%;" src="https://i.imgur.com/hTvy5M9.jpg"/>
+    <div class="column is-one-third">
+      <img style="width: 350px; border-radius: 5%;" src="https://i.imgur.com/hTvy5M9.jpg"/>
     </div>
-    <div class="column is-three-quarters">
-      <h2>Hi, I'm Tom!</h2>
+    <div class="column is-two-thirds">
           <p>
             I am a Junior Developer who has recently completed a Software
             Engineering Immersive course via General Assembly. Having
@@ -46,7 +46,7 @@
             industries, including the financial and luxury car markets, I
             enrolled in a Software Engineering course to follow my passion
             for technology and desire to pursue a career as a developer. 
-            </br>
+            </br> </br>
             A hard-working mentality combined with an eagerness to constantly
             challenge myself have allowed me to adapt to the range of roles
             I have previously held, and I believe this will also help me
@@ -54,8 +54,8 @@
             Developer position within a company in which I can learn and
             develop my existing skillset.
           </p>
-          <h1>Skills:</h1>
-          <p>HTML, CSS, JavaScript, NPM, React, Node, Mongoose,
+          </br>
+          <p><strong>Skills </strong>HTML, CSS, JavaScript, NPM, React, Node, Mongoose,
             Express, Python, PostgreSQL, Flask, MongoDb, Git, Heroku, Sass
           </p>
     </div>
@@ -63,34 +63,35 @@
 </section>
 
 <section class="projects">
-  <h1 class="title">Projects</h1>
+  <h1 class="title is-3" style="text-align: center">Projects</h1>
 
   <div class="carousel-wrapper">
     <span id="item-1"></span>
     <span id="item-2"></span>
     <span id="item-3"></span>
+    <span id="item-4"></span>
     <div class="carousel-item item-1" style="display: flex">
       <div class="image-container" style="width: 610px">
-        <img style="width: 280px; height: 260px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/RKhuUeP.png"
+        <img style="width: 250px; height: 230px; padding: 3px; border-radius: 5%"
+        src="./Images/Invaders/Game Play 1.png"
         />
         <img
-        style="width: 280px; height: 260px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/9CcWvVY.png?1"
+        style="width: 250px; height: 230px; padding: 3px; border-radius: 5%"
+        src="./Images/Invaders/Start Screen.png"
         />
         <img
-        style="width: 280px; height: 260px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/Tr0YANR.png?1"
+        style="width: 250px; height: 230px; padding: 3px; border-radius: 5%"
+        src="./Images/Invaders/Game Over.png"
         />
         <img
-        style="width: 280px; height: 260px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/wmsIlsR.png"
+        style="width: 250px; height: 230px; padding: 3px; border-radius: 5%"
+        src="./Images/Invaders/Game Play 2.png"
         />
       </div>
       <div class="text-container" style="width: 400px">
-      <h2 class="title is-4" style="text-align: center">Project 1 - Space Invaders</h2>
+      <h2 class="title is-3" style="text-align: center">Project 1 - Space Invaders</h2>
       <p>  
-        <strong>Description: </strong>Using ‘Vanilla’ JavaScript, I created a grid-based game modelled on Space Invaders. This project allowed me to consolidate my recently gained experience of JavaScript, while also experimenting with new elements within CSS.
+        <div class="title is-5">Description:</div>Using ‘Vanilla’ JavaScript, I created a grid-based game modelled on Space Invaders. This project allowed me to consolidate my recently gained experience of JavaScript, while also experimenting with new elements within CSS.
       </br>
       </br>
        <strong>Timescale: </strong>1 Week
@@ -99,7 +100,7 @@
         <strong>Technology: </strong>HTML, CSS, Vanilla Javascript
       </br>
       </br>
-        <strong>Link: </strong>https://thomas-briody.github.io/Project-1,
+        <strong>Link: </strong>https://thomas-briody.github.io/Project-1
       </p>
       <a class="arrow arrow-prev" href="#item-3"></a>
       <a class="arrow arrow-next" href="#item-2"></a>
@@ -109,19 +110,19 @@
     <div class="carousel-item item-2" style="display: flex">
       <div class="image-container" style="width: 610px">
         <img style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/dw3qMRr.png"
+        src="./Images/ETC/Home.png"
         />
         <img
         style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/UEzWqUh.png"
+        src="./Images/ETC/Article.png"
         />
         <img
         style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/VdUjWsS.png"
+        src="./Images/ETC/Business.png"
         />
         <img
         style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/BHI2LqZ.png"
+        src="./Images/ETC/Home2.png"
         />
       </div>
       <div class="text-container" style="width: 400px; margin: 20px">
@@ -146,19 +147,19 @@
     <div class="carousel-item item-3" style="display: flex">
       <div class="image-container" style="width: 610px">
         <img style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/LqjP7ZO.png"
+        src="./Images/Stepladder/Home.png"
         />
         <img
         style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/C89VSDr.png"
+        src="./Images/Stepladder/Companies.png"
         />
         <img
         style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/6VWfsYA.png"
+        src="./Images/Stepladder/Job Page.png"
         />
         <img
         style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-        src="https://i.imgur.com/sdFrvuF.png"
+        src="./Images/Stepladder/Company.png"
         />
       </div>
       <div class="text-container" style="width: 400px; margin: 20px">
@@ -173,58 +174,58 @@
           <strong>Technology: </strong>HTML, CSS, Vanilla Javascript
         </br>
         </br>
-          <strong>Link: </strong> N/A
+          <strong>Link: </strong> https://stepladder-tom.herokuapp.com/
         </p>
         <a class="arrow arrow-prev" href="#item-2"></a>
+        <a class="arrow arrow-next" href="#item-4"></a>
+      </div>
+    </div>
+    <div class="carousel-item item-4" style="display: flex">
+      <div class="image-container" style="width: 610px">
+        <img style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="./Images/Folio/Portfolio.png"
+        />
+        <img
+        style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="./Images/Folio/Home.png"
+        />
+        <img
+        style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="./Images/Folio/Research.png"
+        />
+        <img
+        style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
+        src="./Images/Folio/About.png"
+        />
+      </div>
+      <div class="text-container" style="width: 400px; margin: 20px">
+        <h2 class="title is-4" style="text-align: center">Project 4 - Folio</h2>
+        <p>  
+          <strong>Description: </strong>This project allowed me to solidify my understanding of React, while also implementing the use of Python and Flask on the backend. My team set the ambitious target of creating a stock & crypto exchange website, and ended up utilising 7 API's on both the front and back end. We used React Semantic Ui as our CSS framework.
+        </br>
+        </br>
+         <strong>Timescale: </strong>1 Week
+        </br>
+        </br>
+          <strong>Technology: </strong>HTML, CSS, Vanilla Javascript
+        </br>
+        </br>
+          <strong>Link: </strong> N/A
+        </p>
+        <a class="arrow arrow-prev" href="#item-3"></a>
         <a class="arrow arrow-next" href="#item-1"></a>
       </div>
     </div>
   </div>
 
-  <!-- <h1 class="title">Projects</h1>
-    <div class="columns">
-      <div
-        class="column is-half"
-        style="display: flex; flex-wrap: wrap; padding: 50px"
-      >
-        <img style="width: 270px; height: 250px; padding: 3px"
-          src="https://i.imgur.com/RKhuUeP.png"
-        />
-        <img
-          className="image"
-          style="width: 270px; height: 250px; padding: 3px"
-          src="https://i.imgur.com/9CcWvVY.png?1"
-        />
-        <img
-          className="image"
-          style="width: 270px; height: 250px; padding: 3px"
-          src="https://i.imgur.com/Tr0YANR.png?1"
-        />
-        <img
-          className="image"
-          style="width: 270px; height: 250px; padding: 3px"
-          src="https://i.imgur.com/wmsIlsR.png"
-        />
-      </div>
-
-      <div className="column is-half">
-        <h1 class="title">Project 1 - Space Invaders</h1>
-        <p>
-          <strong>Name: </strong>Space Invaders
-          </br>
-          <strong>Timescale: </strong>1 Week
-          </br>
-          <strong>Technology: </strong>HTML, CSS, Vanilla Javascript
-          </br>
-          <strong>Description: </strong>Using ‘Vanilla’ JavaScript, I created a grid-based game modelled on Space Invaders. This project allowed me to consolidate my recently gained experience of JavaScript, while also experimenting with new elements within CSS.
-          </br>
-          <strong>Link: </strong>https://thomas-briody.github.io/Project-1/</p>
-      </div>
-    </div> -->
-
 </section>
-<div class="footer">
-  This is a footer
+<div class="contact">
+  <h1 class="title is-3" style="text-align: center">Get in Touch</h1>
+  
+      <div class="buttons is-centered">
+        <a href="#" class="button is-link">Github</a>
+        <a href="#" class="button is-link">LinkedIn</a>
+      </div>
 </div>
   </body>
 </html>
