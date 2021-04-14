@@ -7,13 +7,15 @@
     <title>Tom Briody Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 
     
   </head>
   <body>
  
-    <nav class="nav">
+    <nav class="nav is-active">
       <ul>
         <li><a href="#Home" class="link">Home</a></li>
         <li><a href="#About" class="link">About Me</a></li>
@@ -24,21 +26,28 @@
     <div class="blocks" id="Home">
       <section class="hero">
         <div class="hero-title">
-          <h1 class="title animate__animated animate__fadeInDown" style="font-size: 100px;">Thomas Briody</h1>
-          <h2 class='title animate__animated animate__fadeInDown' style="font-size: 50px">software Engineer</h2>
+          <h1 class="title animate__animated animate__fadeInDown" style="font-size: 100px; color: #f8f8ff">Thomas Briody</h1>
+          <h2 class='title animate__animated animate__fadeInDown' style="font-size: 50px; color: #f8f8ff">software Engineer</h2>
         </div>
     </section>
     </div>
     
     <div class="blocks" id="About">
-      <section class="about" style="margin: 120px">
-        <h1 class="title is-3" style="text-align: center; margin:70px; margin-bottom: 30px">About Me</h1>
+      <section class="about" style="margin: 70px">
         <div class="columns">
           <div class="column is-one-third">
-            <img style="width: 350px; border-radius: 5%;" src="https://i.imgur.com/hTvy5M9.jpg"/>
+            <img style="border: 3px solid white; border-radius: 5%;" src="./Images/Me/WhatsApp Image 2021-04-01 at 13.50.45.jpeg"/>
+            <div class="box">
+              <h3 class="title is-5" style="text-align: center; margin: 5px">Skills</h3>
+              <strong style="font-size: 18px">Programming:</strong> HTML, CSS, JavaScript, Yarn, NPM, React, Node, Mongoose, Express, Python, PostgreSQL, Flask, MongoDb, Git, Heroku, Sass
+            </br></br>
+              <strong style="font-size: 18px">Business:</strong> Customer Support, Organisation, Teamwork, Problem Solving, Management
+            </div>
           </div>
           <div class="column is-two-thirds">
-                <p>
+            <h1 class="title is-3" style="text-align: center; margin: 10px">About Me</h1>
+            <p>
+                <br>
                   I am a Junior Developer who has recently completed a Software
                   Engineering Immersive course via General Assembly. Having
                   previously worked in a variety of positions within a number of
@@ -54,37 +63,6 @@
                   develop my existing skillset.
                 </p>
                 </br>
-                <div class="columns">
-                  <div class="colum is-half">
-                    <div class="card">
-                      <div class="card-header">
-                        <div class="card-header-title">
-                          Skills
-                        </div>
-                      </div>
-                      <div class="card-content">
-                        Programming: HTML, CSS, JavaScript, Yarn, NPM, React, Node, Mongoose, Express, Python, PostgreSQL, Flask, MongoDb, Git, Heroku, Sass
-                      </div>
-                    </div>
-                  </div>
-                  <div class="colum is-half">
-                    <div class="card">
-                      <div class="card-header">
-                        <div class="card-header-title">
-                          Interests
-                        </div>
-                      </div>
-                      <div class="card-content">
-                        Formal qualifications within drumming and percussion (grade 4 Guildhall) Accomplished in guitar and keyboard
-Keen traveller, having lived in the USA and Australia, and currently living in the Netherlands
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <p><strong>Skills </strong>HTML, CSS, JavaScript, NPM, React, Node, Mongoose,
-                  Express, Python, PostgreSQL, Flask, MongoDb, Git, Heroku, Sass
-                </p>
           </div>
         </div>
       </section>
@@ -93,7 +71,7 @@ Keen traveller, having lived in the USA and Australia, and currently living in t
     <div class="blocks" id="Projects">
 
       <section class="projects">
-        <h1 class="title is-3" style="text-align: center">Projects</h1>
+        <h1 class="title is-3" style="text-align: center; margin:70px; margin-bottom: 30px">Projects</h1>
       
         <div class="carousel-wrapper">
           <span id="item-1"></span>
@@ -101,26 +79,15 @@ Keen traveller, having lived in the USA and Australia, and currently living in t
           <span id="item-3"></span>
           <span id="item-4"></span>
           <div class="carousel-item item-1" style="display: flex">
-            <div class="image-container" style="width: 610px">
-              <img style="width: 250px; height: 230px; padding: 3px; border-radius: 5%"
-              src="./Images/Invaders/Game Play 1.png"
-              />
-              <img
-              style="width: 250px; height: 230px; padding: 3px; border-radius: 5%"
-              src="./Images/Invaders/Start Screen.png"
-              />
-              <img
-              style="width: 250px; height: 230px; padding: 3px; border-radius: 5%"
-              src="./Images/Invaders/Game Over.png"
-              />
-              <img
-              style="width: 250px; height: 230px; padding: 3px; border-radius: 5%"
-              src="./Images/Invaders/Game Play 2.png"
-              />
+            <div class="image-container" style="width: 60%">
+              <img class="portfolio-image" src="./Images/Invaders/Game Play 1.png"/>
+              <img class="portfolio-image" src="./Images/Invaders/Start Screen.png"/>
+              <img class="portfolio-image" src="./Images/Invaders/Game Over.png"/>
+              <img class="portfolio-image" src="./Images/Invaders/Game Play 2.png"/>
             </div>
-            <div class="text-container" style="width: 400px">
-            <h2 class="title is-3" style="text-align: center">Project 1 - Space Invaders</h2>
-            <p>  
+            <div class="text-container" style="width: 40%; margin: 20px">
+              <h2 class="title is-3" style="text-align: center">Project 1 - Space Invaders</h2>
+              <p>  
               <div class="title is-5">Description:</div>Using ‘Vanilla’ JavaScript, I created a grid-based game modelled on Space Invaders. This project allowed me to consolidate my recently gained experience of JavaScript, while also experimenting with new elements within CSS.
             </br>
             </br>
@@ -138,25 +105,14 @@ Keen traveller, having lived in the USA and Australia, and currently living in t
           </div>
           
           <div class="carousel-item item-2" style="display: flex">
-            <div class="image-container" style="width: 610px">
-              <img style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/ETC/Home.png"
-              />
-              <img
-              style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/ETC/Article.png"
-              />
-              <img
-              style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/ETC/Business.png"
-              />
-              <img
-              style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/ETC/Home2.png"
-              />
+            <div class="image-container" style="width: 60%">
+              <img class="portfolio-image" src="./Images/ETC/Home.png"/>
+              <img class="portfolio-image" src="./Images/ETC/Article.png"/>
+              <img class="portfolio-image" src="./Images/ETC/Business.png"/>
+              <img class="portfolio-image" src="./Images/ETC/Home2.png"/>
             </div>
-            <div class="text-container" style="width: 400px; margin: 20px">
-              <h2 class="title is-4" style="text-align: center">Project 2 - ETC News</h2>
+            <div class="text-container" style="max-width: 40%; margin: 20px">
+              <h2 class="title is-3" style="text-align: center">Project 2 - ETC News</h2>
               <p>  
                 <strong>Description: </strong>In my first group project, we created a news website using a public news API. I worked on a mixture of react elements along with assisting with the design of the overall website, and enjoyed coding with others and learning from them.
               </br>
@@ -175,25 +131,14 @@ Keen traveller, having lived in the USA and Australia, and currently living in t
           </div>
           
           <div class="carousel-item item-3" style="display: flex">
-            <div class="image-container" style="width: 610px">
-              <img style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/Stepladder/Home.png"
-              />
-              <img
-              style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/Stepladder/Companies.png"
-              />
-              <img
-              style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/Stepladder/Job Page.png"
-              />
-              <img
-              style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/Stepladder/Company.png"
-              />
+            <div class="image-container" style="width: 60%">
+              <img class="portfolio-image" src="./Images/Stepladder/Home.png"/>
+              <img class="portfolio-image" src="./Images/Stepladder/Companies.png"/>
+              <img class="portfolio-image" src="./Images/Stepladder/Job Page.png"/>
+              <img class="portfolio-image" src="./Images/Stepladder/Company.png"/>
             </div>
-            <div class="text-container" style="width: 400px; margin: 20px">
-              <h2 class="title is-4" style="text-align: center">Project 3 - Stepladder</h2>
+            <div class="text-container" style="width: 40%; margin: 20px">
+              <h2 class="title is-3" style="text-align: center">Project 3 - Stepladder</h2>
               <p>  
                 <strong>Description: </strong>For this project my team created a job recruitment website, working together on both the front and backend to produce the final app. During this project I became comfortable using Bulma, a CSS framework, to give the website a clean and simple style.
               </br>
@@ -211,25 +156,14 @@ Keen traveller, having lived in the USA and Australia, and currently living in t
             </div>
           </div>
           <div class="carousel-item item-4" style="display: flex">
-            <div class="image-container" style="width: 610px">
-              <img style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/Folio/Portfolio.png"
-              />
-              <img
-              style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/Folio/Home.png"
-              />
-              <img
-              style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/Folio/Research.png"
-              />
-              <img
-              style="width: 300px; height: 210px; padding: 3px; border-radius: 5%"
-              src="./Images/Folio/About.png"
-              />
+            <div class="image-container" style="width: 60%">
+              <img class="portfolio-image" src="./Images/Folio/Portfolio.png"/>
+              <img class="portfolio-image" src="./Images/Folio/Home.png"/>
+              <img class="portfolio-image" src="./Images/Folio/Research.png"/>
+              <img class="portfolio-image" src="./Images/Folio/About.png"/>
             </div>
-            <div class="text-container" style="width: 400px; margin: 20px">
-              <h2 class="title is-4" style="text-align: center">Project 4 - Folio</h2>
+            <div class="text-container" style="width: 40%; margin: 20px">
+              <h2 class="title is-3" style="text-align: center">Project 4 - Folio</h2>
               <p>  
                 <strong>Description: </strong>This project allowed me to solidify my understanding of React, while also implementing the use of Python and Flask on the backend. My team set the ambitious target of creating a stock & crypto exchange website, and ended up utilising 7 API's on both the front and back end. We used React Semantic Ui as our CSS framework.
               </br>
@@ -257,16 +191,16 @@ Keen traveller, having lived in the USA and Australia, and currently living in t
 
       <div class="contact">
         <h1 class="title is-3" style="text-align: center;margin: 30px" >Get in Touch</h1>
-
+        <div class="container" style="text-align: center; padding: 10px">
         <p>Mobile: +31640015065</p>
           <p>Email: tom@briody.net</p>
          <p>GitHub: github.com/Thomas-Briody</p> 
            <p>LinkedIn: tinyurl.com/Thomas-Briody</p>
-        
-            <div class="buttons is-centered">
-              <a href="#" class="button is-link">Github</a>
-              <a href="#" class="button is-link">LinkedIn</a>
-            </div>
+          </div>
+          <div class="buttons is-centered">
+            <a href="#" class="button is-link">Github</a>
+            <a href="#" class="button is-link">LinkedIn</a>
+          </div>
       </div>
     </div>
 
