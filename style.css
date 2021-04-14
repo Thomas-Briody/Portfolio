@@ -42,7 +42,7 @@ p {
  width: 48%;
  height: 48%;
  padding: 3px;
- border-radius: 5%; 
+ border-radius: 5px; 
 }
 
 .portfolio-image:hover {
@@ -82,6 +82,12 @@ li:hover {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 12px;
+    margin: 6px;
+}
+
+.arrow:hover {
+  border: solid rgb(59, 8, 8);
+  border-width: 0 4px 4px 0;
 }
 
 .arrow-prev{
@@ -166,7 +172,7 @@ li:hover {
   }
   
   .nav {
-    width: 500px;
+    width: 480px;
     position: fixed;
     top: 0;
     left: 0;
@@ -196,11 +202,21 @@ li:hover {
     min-height: 100%;
     overflow: hidden;
     background-color: #acdde1;
-  }
+    border: 5px solid rgba(255, 255, 255, 0.6);
+    border-width: 0 0 3px 0;
   
+  }
 
-
-
-
-
-
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+  }
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+  }
